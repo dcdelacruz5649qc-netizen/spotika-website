@@ -89,7 +89,7 @@ const members = [
         trait: "Editing, coding, web design, and martial arts.",
         motto: "N/A",
         bio: "What Cebastian said.",
-        image: "/images/ren.jpg"
+        image: "images/ren.jpg"
     },
     {
         id: 2,
@@ -99,7 +99,7 @@ const members = [
         trait: "Print provider, pro valorant player, and gamer.",
         motto: "N/A",
         bio: "I'm Sean",
-        image: "/images/sensen.jpg"
+        image: "images/sensen.jpg"
     },
     {
         id: 3,
@@ -109,7 +109,7 @@ const members = [
         trait: "Editing, martial arts, larping, and many more.",
         motto: "N/A",
         bio: "I'm Carl",
-        image: "/images/mat2.jpg"
+        image: "images/mat2.jpg"
     },
     {
         id: 4,
@@ -119,7 +119,7 @@ const members = [
         trait: "Pastor of IKA, martial arts, and many more.",
         motto: "N/A",
         bio: "I'm Ronilo",
-        image: "/images/ronilo1.jpg"
+        image: "images/ronilo1.jpg"
     },
     {
         id: 5,
@@ -129,7 +129,7 @@ const members = [
         trait: "N/A",
         motto: "N/A",
         bio: "I'm Jahleel",
-        image: "/images/jah.jpg"
+        image: "images/jah.jpg"
     },
     {
         id: 6,
@@ -139,7 +139,7 @@ const members = [
         trait: "Mogging, main speaker to the vlogs, martial arts, and femboy.",
         motto: "There's no better way to be, than to be. Understanding what to be is, is the question and the answer.",
         bio: "Its crazy, its fun, its genuine. For me, all the bs, vlogs, and stuff, are a big turning point and development for me, because, its been awhile after the pandemic before i had this level of relationship with friends, it felt very alive for me, and so ika for me is a highlight for my high school, both in junior and senior. Junior sucked",
-        image: "/images/ceb.jpg"
+        image: "images/ceb.jpg"
     },
     {
         id: 7,
@@ -149,7 +149,7 @@ const members = [
         trait: "CODM pro player, advisor, and navigator.",
         motto: "N/A",
         bio: "I'm Ariez",
-        image: "/images/ariez.jpg"
+        image: "images/ariez.jpg"
     },
     {
         id: 8,
@@ -159,7 +159,7 @@ const members = [
         trait: "N/A",
         motto: "N/A",
         bio: "N/A",
-        image: "/images/yurie.jpg"
+        image: "images/yurie.jpg"
     },
     {
         id: 9,
@@ -169,7 +169,7 @@ const members = [
         trait: "N/A",
         motto: "N/A",
         bio: "I'm Jodel",
-        image: "/images/jodel.jpg"
+        image: "images/jodel.jpg"
     },
     {
         id: 10,
@@ -179,7 +179,7 @@ const members = [
         trait: "N/A",
         motto: "N/A",
         bio: "I'm John",
-        image: "/images/patrick.jpg"
+        image: "images/patrick.jpg"
     }
 ];
 
@@ -194,7 +194,7 @@ const events = [
         category: "2023 ERA",
         layout: "landscape",
         description: "This day was the day the katipuneros first assembled. All because of Sean's Uno card, history was created.",
-        image: "/events/uno.jpg"
+        image: "events/uno.jpg"
     },
     {
         id: 2,
@@ -203,7 +203,7 @@ const events = [
         category: "2023 ERA",
         layout: "landscape",
         description: "First ever group photo during Matthew's birthday where all members are complete and in one frame.",
-        image: "/events/group1.jpg"
+        image: "events/group1.jpg"
     },
     {
         id: 3,
@@ -212,7 +212,7 @@ const events = [
         category: "School Events",
         layout: "landscape",
         description: "N/A",
-        image: "/events/intrams1.jpg"
+        image: "events/intrams1.jpg"
     },
     {
         id: 4,
@@ -221,7 +221,7 @@ const events = [
         category: "School Events",
         layout: "landscape",
         description: "N/A",
-        image: "/events/tourna.jpg"
+        image: "events/tourna.jpg"
     },
     {
         id: 5,
@@ -230,7 +230,7 @@ const events = [
         category: "2023",
         layout: "landscape",
         description: "N/A",
-        image: "/events/punit.jpg"
+        image: "events/punit.jpg"
     },
     {
         id: 6,
