@@ -1250,3 +1250,29 @@ footer p,
     letter-spacing: -1px;
     color: var(--ink);
 }
+/* CENTER THE NAVIGATION MENU */
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+}
+@media (max-width: 760px) {
+    .navbar nav {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: calc(100% + 1px);
+        transform: none;
+        align-items: stretch;
+    }
+}
