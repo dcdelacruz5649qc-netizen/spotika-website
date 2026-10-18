@@ -1252,7 +1252,6 @@ footer p,
 }
 /* CENTER THE NAVIGATION MENU */
 .navbar {
-    position: relative;
     display: flex;
     justify-content: flex-start;
 }
