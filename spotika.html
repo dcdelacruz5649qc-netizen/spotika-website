@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#292c25">
+    <title>SPOTIKA | The Museum of IKA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar" id="siteNavbar">
+    <a href="#home" class="logo" aria-label="SPOTIKA home">
+    <img src="images/SPOTIKA_LOGO-removebg-preview.png" alt="" class="logo-image">
+    <span class="logo-name">SPOTIKA</span>
+</a>
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primaryNav">
+        <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="primaryNav" aria-label="Main navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#gallery" class="nav-link">Members</a>
+        <a href="#events" class="nav-link">Timeline</a>
+        <a href="#about" class="nav-link">About</a>
+    </nav>
+    <a href="#gallery" class="nav-button">Explore Gallery <span aria-hidden="true">↗</span></a>
+</header>
+
+<main>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="eyebrow">A COLLECTION OF IKA STORIES</span>
+            <h1>Every IKA history, infos, and stories<br>all in one<br><span>site.</span></h1>
+            <p>Welcome to SPOTIKA, a museum dedicated to the IKA members' stories, and their contributions to Decathlon that made them national katipuneros.</p>
+            <a href="#gallery" class="primary-button">Read about the members <span>↗</span></a>
+            <div class="hero-note"><span class="note-dot"></span>TEN KATIPUNEROS. TEN STORIES.</div>
+        </div>
+        <div class="hero-art">
+            <div class="art-label">THE IKA MEMBERS COLLECTION</div>
+            <div class="art-frame">
+                <img src="/images/friends.jpg" alt="Friends spending time together">
+                <div class="art-caption"><span></span><span>THE GREAT GRADUATION BEFORE SEPARATION</span></div>
+            </div>
+            <div class="floating-note">
+                <span class="note-star"></span>
+                <div><strong>Date Taken:</strong><p>April 22, 2024</p></div>
+            </div>
+            <span class="decorative-circle"></span>
+        </div>
+    </section>
+
+    <section class="collection section-wrap" id="gallery">
+        <div class="section-heading">
+            <div>
+                <span class="eyebrow">MEET THE KATIPUNEROS</span>
+                <h2>THE IKA <span>HALL</span></h2>
+                <p>Ten faces. One glorious purpose.</p>
+            </div>
+            <div class="collection-count"><strong id="memberCount">10</strong><span>KATIPUNEROS IN TOTAL</span></div>
+        </div>
+        <div class="search-area">
+            <div class="search-box">
+                <span class="search-icon">⌕</span>
+                <input type="search" id="searchInput" placeholder="Search a katipunero, nickname, or personality..." aria-label="Search members">
+                <span class="search-shortcut">SEARCH</span>
+            </div>
+            <p>SELECT A KATIPUNERO TO VIEW THEIR BIO ↗</p>
+        </div>
+        <div class="member-grid" id="memberGrid"></div>
+        <div class="empty-state" id="emptyState" hidden><span>✳</span><h3>No katipuneros found.</h3><p>Try another name or nickname.</p></div>
+    </section>
+
+    <section class="events-section section-wrap" id="events">
+        <div class="section-heading">
+            <div>
+                <span class="eyebrow">TRIP DOWN MEMORY LANE</span>
+                <h2>IKA <span>TIMELINE</span></h2>
+                <p>Timeline, history, and major events of IKA.</p>
+            </div>
+            <div class="collection-count"><strong id="eventCount">30</strong><span>MEMORIES IN RECORD</span></div>
+        </div>
+        <div class="event-controls">
+            <div class="search-box event-search-box">
+                <span class="search-icon">⌕</span>
+                <input type="search" id="eventSearch" placeholder="Search events, dates, or categories..." aria-label="Search events">
+                <span class="search-shortcut">SEARCH</span>
+            </div>
+            <label class="filter-wrap">
+                <span class="filter-label">FILTER BY</span>
+                <select id="eventFilter" aria-label="Filter events by category">
+                    <option value="all">All Events</option>
+                    <option value="2023 Events">2023 Events</option>
+                    <option value="2024 Events">2024 Events</option>
+                    <option value="School Events">School Events</option>
+                </select>
+            </label>
+        </div>
+        <p class="gallery-hint">SELECT AN EVENT TO VIEW ITS STORY ↗</p>
+        <div class="event-grid" id="eventGrid"></div>
+        <div class="empty-state" id="eventEmptyState" hidden><span>✳</span><h3>No events found.</h3><p>Try another search or category.</p></div>
+    </section>
+
+    <section class="about-section" id="about">
+        <span class="eyebrow">A LITTLE NOTE FROM THE DEVELOPER</span>
+        <h2>It's not just a collection.<br><span>It's part of us that made us who we are today.</span></h2>
+        <p>SPOTIKA is a digital documentation of IKA's stories, information, history, and katipuneros infos. Every katipunero holds a story, a personality, and a shenanigan worth remembering.</p>
+        <span class="about-signature">MADE WITH HOPES AND DREAMS, RAN BY VS CODE. ✳</span>
+    </section>
+</main>
+
+<footer>
+    <a href="#home" class="logo">SPOTIKA<span></span></a>
+    <p>THE MUSEUM OF IKA · EST. WITH KATIPUNEROS</p>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+</footer>
+
+<div class="modal-overlay" id="profileModal" role="dialog" aria-modal="true" aria-labelledby="profileName" hidden>
+    <div class="profile-modal">
+        <button class="close-modal" id="closeModal" aria-label="Close profile">✕</button>
+        <div class="profile-image-wrap"><img id="profileImage" src="" alt=""><span class="profile-number" id="profileNumber"></span></div>
+        <div class="profile-details">
+            <span class="eyebrow" id="profileCategory">MEMBER EXHIBIT</span>
+            <h2 id="profileName">Member Name</h2>
+            <p class="profile-nickname" id="profileNickname"></p>
+            <div class="profile-divider"></div>
+            <h3>STORY</h3><p id="profileBio"></p>
+            <div class="profile-facts">
+                <div><span>KNOWN FOR</span><strong id="profileTrait"></strong></div>
+                <div><span>PERSONAL MOTTO</span><strong id="profileMotto"></strong></div>
+            </div>
+            <p class="profile-footer">EVERY KATIPUNERO HAS A STORY. THIS IS ONE OF TEN.</p>
+        </div>
+    </div>
+</div>
+
+<div class="modal-overlay" id="eventModal" role="dialog" aria-modal="true" aria-labelledby="eventModalTitle" hidden>
+    <div class="event-modal">
+        <button class="close-modal" id="closeEventModal" aria-label="Close event">✕</button>
+        <div class="event-modal-image-wrap">
+            <img id="eventModalImage" src="" alt="">
+            <span class="event-modal-number" id="eventModalNumber"></span>
+        </div>
+        <div class="event-modal-details">
+            <span class="eyebrow" id="eventModalCategory">EVENT EXHIBIT</span>
+            <p class="event-modal-date" id="eventModalDate"></p>
+            <h2 id="eventModalTitle">Event title</h2>
+            <p id="eventModalDescription"></p>
+            <p class="profile-footer">A MEMORY FROM THE SPOTIKA ARCHIVE ✳</p>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
