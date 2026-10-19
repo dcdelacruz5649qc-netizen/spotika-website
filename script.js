@@ -159,7 +159,7 @@ const members = [
         trait: "N/A",
         motto: "N/A",
         bio: "N/A",
-        image: "images/yurie.jpg"
+        image: "images/yur.jpg"
     },
     {
         id: 9,
