@@ -290,7 +290,7 @@ const events = [
         id: 12,
         title: "IKA AGE OF UL-AN",
         date: "October 11, 2024",
-        category: "Upcoming Events",
+        category: "2024 Events",
         layout: "landscape",
         description: "The day katipuneros assembled to form a roman shield and push forward through a category 5 hurricane that was heading their way.",
         image: "events/ulan.jpg"
