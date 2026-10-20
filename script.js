@@ -83,7 +83,7 @@ if (siteNavbar && navToggle && primaryNav) {
 const members = [
     {
         id: 1,
-        name: "(Asian Dude)",
+        name: "Ren (Chinese Dude)",
         nickname: "Founder and Developer",
         category: "THREE MUSKETEERS OF IKA",
         trait: "Editing, coding, web design, and martial arts.",
@@ -125,7 +125,7 @@ const members = [
         id: 5,
         name: "Jahleel Santos (Leel)",
         nickname: "The KFC devourer",
-        category: "The Black One",
+        category: "Supremo of IKA",
         trait: "N/A",
         motto: "N/A",
         bio: "I'm Jahleel",
@@ -135,7 +135,7 @@ const members = [
         id: 6,
         name: "Cebastian (Ceb)",
         nickname: "The Mogger",
-        category: "FEMBOY",
+        category: "DND master",
         trait: "Mogging, main speaker to the vlogs, martial arts, and femboy.",
         motto: "There's no better way to be, than to be. Understanding what to be is, is the question and the answer.",
         bio: "Its crazy, its fun, its genuine. For me, all the bs, vlogs, and stuff, are a big turning point and development for me, because, its been awhile after the pandemic before i had this level of relationship with friends, it felt very alive for me, and so ika for me is a highlight for my high school, both in junior and senior. Junior sucked",
@@ -144,8 +144,8 @@ const members = [
     {
         id: 7,
         name: "Ariez King (Rizz)",
-        nickname: "The Adventurer",
-        category: "N/A",
+        nickname: "The rizz king",
+        category: "PRO PLAYER",
         trait: "CODM pro player, advisor, and navigator.",
         motto: "N/A",
         bio: "I'm Ariez",
@@ -153,10 +153,10 @@ const members = [
     },
     {
         id: 8,
-        name: "Yurie Domingo",
+        name: "Yurie Domingo (Yur)",
         nickname: "The Mentalist",
-        category: "N/A",
-        trait: "N/A",
+        category: "PRO PLAYER",
+        trait: "Valorant pro player, advisor, comforter",
         motto: "N/A",
         bio: "N/A",
         image: "images/yur.jpg"
@@ -165,8 +165,8 @@ const members = [
         id: 9,
         name: "Jodel Estares (Ninong)",
         nickname: "The Funder/Sponsor",
-        category: "SPONSORS",
-        trait: "N/A",
+        category: "SPONSOR OF IKA",
+        trait: "Rizzler, sponsor, ninong ng IKA",
         motto: "N/A",
         bio: "I'm Jodel",
         image: "images/jodel.jpg"
@@ -174,8 +174,8 @@ const members = [
     {
         id: 10,
         name: "John Patrick (Glizzy Devourer 3000)",
-        nickname: "The Glizzy Devourer 3000",
-        category: "FEMBOY",
+        nickname: "The Talong Destroyer",
+        category: "The Artist",
         trait: "N/A",
         motto: "N/A",
         bio: "I'm John",
@@ -189,18 +189,18 @@ const members = [
 const events = [
     {
         id: 1,
-        title: "EP. 1 UNO",
-        date: "January 15, 2023",
-        category: "2023 ERA",
+        title: "EP. UNO",
+        date: "Pre Historic",
+        category: "???",
         layout: "landscape",
         description: "This day was the day the katipuneros first assembled. All because of Sean's Uno card, history was created.",
-        image: "events/uno.jpg"
+        image: "events/dos.jpg"
     },
     {
         id: 2,
         title: "THE FIRST SUPPER",
         date: "March 04, 2023",
-        category: "2023 ERA",
+        category: "2023 Events",
         layout: "landscape",
         description: "First ever group photo during Matthew's birthday where all members are complete and in one frame.",
         image: "events/group1.jpg"
@@ -208,254 +208,254 @@ const events = [
     {
         id: 3,
         title: "FIRST INTRAMURALS",
-        date: "N/A, 2023",
+        date: "April 24, 2024",
         category: "School Events",
         layout: "landscape",
-        description: "N/A",
+        description: "This day was our first intramurals in 1st year senior-high. It was a very fun and memorable experience. The venue was big and genuinely a great place to host a kind of event like this. Students were given free food and were comfortable since the venue inside had ac.",
         image: "events/intrams1.jpg"
     },
     {
         id: 4,
         title: "BADMINTON TOURNAMENT",
-        date: "N/A, 2023",
+        date: "August 30, 2024",
         category: "School Events",
         layout: "landscape",
-        description: "N/A",
-        image: "events/tourna.jpg"
+        description: "It was badminton tournament, we've trained days for this event and it was worth it. Sean and Jodel made it to the finals but they placed 2nd, but we were happy and still proud of them for getting that far.",
+        image: "events/badminton.jpg"
     },
     {
         id: 5,
         title: "THE PUNIT INCIDENT",
-        date: "April 8, 2023",
-        category: "2023",
+        date: "September 18, 2024",
+        category: "2024 Events",
         layout: "landscape",
-        description: "N/A",
+        description: "This was when we had a dance project video and Jahleel tried to kick, resulting to his pants ripping at the crotch area. He had to borrow a sewing kit and fix it right there in the lobby.",
         image: "events/punit.jpg"
     },
     {
         id: 6,
-        title: "N/A",
-        date: "April 22, 2023",
-        category: "2023",
+        title: "FIVE MONTHS AT TESDA",
+        date: "April 22, 2024",
+        category: "2024 Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "This was our first disassembling and assembling cpu. The experience genuienly felt like tesda and it was so hot and cramped in our room. It was hell of an experience.",
+        image: "events/tesda.jpg"
     },
     {
         id: 7,
-        title: "N/A",
-        date: "May 12, 2023",
-        category: "milestone",
+        title: "CHRISTMAS PARTY",
+        date: "May 12, 2024",
+        category: "2024 Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "It was fun fr fr tho. Prolly the best christmas party we've ever had. We also went to the mall right after and took this picture.",
+        image: "events/party.jpg"
     },
     {
         id: 8,
-        title: "N/A",
-        date: "June 3, 2023",
-        category: "adventure",
+        title: "ZUM IS BA",
+        date: "February 10, 2025",
+        category: "2025 Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "This was when IKA participated in a zumba dance along with the lola huzz's. In attempt to impress the lola huzz's, as if they're a bird tyring to mate. Afterall, a candy is still good even if the wrapper is wrinkled.",
+        image: "events/zumba.jpg"
     },
     {
         id: 9,
-        title: "N/A",
-        date: "June 18, 2023",
-        category: "gathering",
+        title: "KATIPUNEROS",
+        date: "16th-Century",
+        category: "???",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "The day katipuneros were in their uniforms and took a moment to rest before the dance.",
+        image: "events/katips.jpg"
     },
     {
         id: 10,
-        title: "N/A",
-        date: "July 9, 2023",
-        category: "gathering",
+        title: "IKA CIVIL WAR",
+        date: "September 25, 2024",
+        category: "2024 Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "Two of the katipuneros in IKA clashed. Both fough for each of their own beliefs. One side argued that tomboys were better and the other one argued that femboys are superior. In the end, both of them were wrong. Both tomboys and femboys are goated.",
+        image: "events/clash.jpg"
     },
     {
         id: 11,
-        title: "N/A",
-        date: "August 2, 2023",
-        category: "milestone",
+        title: "IKA CIVIL WAR",
+        date: "September 25, 2024",
+        category: "2024 Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "Two of the planetary level katipuneros in IKA clashed as well. The same day and time two other katipuneros fought, only in a different place.",
+        image: "events/ball.jpg"
     },
     {
         id: 12,
-        title: "N/A",
-        date: "August 19, 2023",
-        category: "gathering",
+        title: "IKA AGE OF UL-AN",
+        date: "October 11, 2024",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "The day katipuneros assembled to form a roman shield and push forward through a category 5 hurricane that was heading their way.",
+        image: "events/ulan.jpg"
     },
     {
         id: 13,
-        title: "N/A",
-        date: "September 7, 2023",
-        category: "school",
+        title: "ARNIS",
+        date: "January 19, 2025",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "The day IKA performed a traditional arnis dance. A group of anthropologist visited IKA back when they were still in their primitive state in their tribe before Sean recruited them. An anthropologist named Dr.Sean sat between IKA and his crew took this picture.",
+        image: "events/arnis.jpg"
     },
     {
         id: 14,
-        title: "N/A",
-        date: "September 23, 2023",
-        category: "gathering",
+        title: "INTRAMS 2",
+        date: "March 5, 2025",
+        category: "2025 Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "This was a far more better experience than intrams one. We all jumped, jammed with the music, and party at the center of the venue while the whole place went crazy like a concert",
+        image: "events/intrams2.jpg"
     },
     {
         id: 15,
-        title: "N/A",
-        date: "October 14, 2023",
-        category: "adventure",
+        title: "GRADUATION DAY",
+        date: "April 22, 2025",
+        category: "2025 Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "Graduationn Day.....we were all happy and sad at the same time during this. This was the last picture we have of us complete in a photo. This day was so sad, even a devil may cry.",
+        image: "events/grad.jpg"
     },
     {
         id: 16,
-        title: "N/A",
-        date: "October 31, 2023",
-        category: "gathering",
+        title: "COMING SOON",
+        date: "",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "STAY TUNED!",
+        image: "events/upcoming3.jpg"
     },
     {
         id: 17,
-        title: "N/A",
-        date: "November 12, 2023",
-        category: "milestone",
+        title: "COMING SOON",
+        date: "",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "STAY TUNED!",
+        image: "events/upcoming3.jpg"
     },
     {
         id: 18,
-        title: "N/A",
+        title: "COMING SOON",
         date: "November 25, 2023",
-        category: "gathering",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "STAY TUNED!",
+        image: "events/upcoming3.jpg"
     },
     {
         id: 19,
-        title: "N/A",
-        date: "December 16, 2023",
-        category: "gathering",
+        title: "COMING SOON",
+        date: "",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "STAY TUNED!",
+        image: "events/upcoming3.jpg"
     },
     {
         id: 20,
-        title: "N/A",
-        date: "January 6, 2024",
-        category: "milestone",
+        title: "COMING SOON",
+        date: "",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "STAY TUNED!",
+        image: "events/upcoming3.jpg"
     },
     {
         id: 21,
-        title: "N/A",
-        date: "January 27, 2024",
-        category: "gathering",
+        title: "COMING SOON",
+        date: "",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "STAY TUNED!",
+        image: "events/upcoming3.jpg"
     },
     {
         id: 22,
-        title: "N/A",
-        date: "February 9, 2024",
-        category: "school",
+        title: "COMING SOON",
+        date: "",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "STAY TUNED!",
+        image: "events/upcoming3.jpg"
     },
     {
         id: 23,
-        title: "N/A",
-        date: "February 24, 2024",
-        category: "milestone",
+        title: "COMING SOON",
+        date: "",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "STAY TUNED!",
+        image: "events/upcoming3.jpg"
     },
     {
         id: 24,
-        title: "N/A",
-        date: "March 10, 2024",
-        category: "adventure",
+        title: "COMING SOON",
+        date: "",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "STAY TUNED!",
+        image: "events/upcoming3.jpg"
     },
     {
         id: 25,
-        title: "N/A",
-        date: "March 29, 2024",
-        category: "milestone",
+        title: "COMING SOON",
+        date: "",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "STAY TUNED!",
+        image: "events/upcoming3.jpg"
     },
     {
         id: 26,
-        title: "N/A",
-        date: "April 12, 2024",
-        category: "school",
+        title: "COMING SOON",
+        date: "",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "STAY TUNED!",
+        image: "events/upcoming3.jpg"
     },
     {
         id: 27,
-        title: "N/A",
-        date: "April 22, 2024",
-        category: "milestone",
+        title: "COMING SOON",
+        date: "",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "STAY TUNED!",
+        image: "events/upcoming3.jpg"
     },
     {
         id: 28,
-        title: "N/A",
-        date: "April 22, 2024",
-        category: "gathering",
+        title: "COMING SOON",
+        date: "",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "STAY TUNED!",
+        image: "events/upcoming3.jpg"
     },
     {
         id: 29,
-        title: "N/A",
-        date: "May 18, 2024",
-        category: "gathering",
+        title: "COMING SOON",
+        date: "",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "STAY TUNED!",
+        image: "events/upcoming3.jpg"
     },
     {
         id: 30,
-        title: "N/A",
-        date: "A Future Memory",
-        category: "milestone",
+        title: "COMING SOON",
+        date: "",
+        category: "Upcoming Events",
         layout: "landscape",
-        description: "N/A",
-        image: ""
+        description: "STAY TUNED!",
+        image: "events/upcoming3.jpg"
     }
 ];
 
