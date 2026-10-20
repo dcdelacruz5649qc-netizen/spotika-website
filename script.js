@@ -299,7 +299,7 @@ const events = [
         id: 13,
         title: "ARNIS",
         date: "January 19, 2025",
-        category: "Upcoming Events",
+        category: "2025 Events",
         layout: "landscape",
         description: "The day IKA performed a traditional arnis dance. A group of anthropologist visited IKA back when they were still in their primitive state in their tribe before Sean recruited them. An anthropologist named Dr.Sean sat between IKA and his crew took this picture.",
         image: "events/arnis.jpg"
